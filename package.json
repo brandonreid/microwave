@@ -1,0 +1,20 @@
+{
+  "name": "tesla-calculater",
+  "version": "1.0.0",
+  "description": "Microwave Without Limits",
+  "main": "index.js",
+  "repository": "https://github.com/brandonreid/tesla-calculater.git",
+  "author": "breid <breid@activecampaign.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "snowpack build",
+    "start": "snowpack dev"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
