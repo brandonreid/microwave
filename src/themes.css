@@ -1,0 +1,57 @@
+/* solid-black (DEFAULT) */
+button.solid-black {
+  background-color: #030303;
+}
+
+/* pearl-white */
+.ui.pearl-white {
+  --color-layout-bg: #F7F8FA;
+  --color-layout-bg-subdued: rgba(15, 29, 50, 0.4);
+  --color-layout-border-default: #0F1D32;
+  --color-layout-border-subdued: rgba(15, 29, 50, 0.24);
+  --color-type-default: #0F1D32;
+  --color-interactive-progress: #1F6EE4;
+}
+button.pearl-white {
+  background-color: #f3f3f3;
+}
+
+/* midnight-silver */
+.ui.midnight-silver {
+  --color-layout-bg: #5d5e66;
+  --color-layout-bg-subdued: rgba(245, 244, 239, 0.24);
+  --color-layout-border-default: #F5F4EF;
+  --color-layout-border-subdued: rgba(245, 244, 239, 0.24);
+  --color-type-default: #F5F4EF;
+  --color-interactive-progress: #FFF;
+}
+button.midnight-silver {
+  background-color: #5d5e66;
+}
+
+/* deep-blue */
+.ui.deep-blue {
+  --color-layout-bg: #033375;
+  --color-layout-bg-subdued: rgba(238, 246, 251, 0.24);
+  --color-layout-border-default: #EEF6FB;
+  --color-layout-border-subdued: rgba(238, 246, 251, 0.24);
+  --color-type-default: #EEF6FB;
+  --color-interactive-progress: #F3BF07;
+}
+button.deep-blue {
+  background-color: #033375;
+}
+
+/* red-glossy */
+.ui.red-glossy {
+  --color-layout-bg: #a30303;
+  --color-layout-bg-subdued: rgba(255, 255, 255, 0.24);
+  --color-layout-border-default: #fff;
+  --color-layout-border-subdued: #730000;
+  --color-type-default: #fff;
+  --color-interactive-progress: #000;
+}
+button.red-glossy {
+  background-color: #a30303;
+}
+

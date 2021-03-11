@@ -1,0 +1,32 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--size-l);
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.time {
+  margin: 0;
+  padding: 0;
+}
+.timeComplete {
+  animation: timeCompletePulse 1s ease;
+}
+
+@keyframes timeCompletePulse {
+  0% {
+    transform: translateY(var(--size-m));
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

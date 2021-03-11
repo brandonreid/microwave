@@ -1,0 +1,11 @@
+.progress circle {
+  stroke: var(--color-layout-border-subdued);
+  stroke-width: 2px;
+}
+
+.progress .progress__bar {
+  transform: rotate(-90deg);
+  transform-origin: center;
+  stroke: var(--color-interactive-progress);
+  transition: stroke-dashoffset 0.25s linear;
+}

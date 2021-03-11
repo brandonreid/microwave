@@ -1,0 +1,20 @@
+.default {
+  font-family: var(--type-family-default);
+  font-size: var(--type-size-default);
+  line-height: var(--type-leading-default);
+  color: var(--color-type-default);
+}
+
+.medium {
+  font-family: var(--type-family-default);
+  font-size: var(--type-size-medium);
+  line-height: var(--type-leading-medium);
+  color: var(--color-type-default);
+}
+
+.large {
+  font-family: var(--type-family-default);
+  font-size: var(--type-size-large);
+  line-height: var(--type-leading-large);
+  color: var(--color-type-default);
+}

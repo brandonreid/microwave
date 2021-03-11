@@ -45,6 +45,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hotkeys-js@3.8.2:
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/hotkeys-js/-/hotkeys-js-3.8.2.tgz#177c3e7dc19279c881e69983177849bed76e4747"
+  integrity sha512-HZZ9RVNr3nBbs2nW968o4rp3xXSdPjJ4B7GTXE375WwboltDJMsP9mcHfAAv+igsTeVxetr10mEbnoac/1U+oQ==
+
 is-core-module@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
@@ -112,6 +117,13 @@ react-dom@^17.0.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     scheduler "^0.20.1"
+
+react-hotkeys-hook@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/react-hotkeys-hook/-/react-hotkeys-hook-3.2.1.tgz#314760bad7b27c1cf5dedb4b8b15fb7eced3ae1f"
+  integrity sha512-l5Y4Dr109Fz10hHq40hkJmppXUqdv7tNVFldPq7lDsgWBpPLWCtkkSkrzTySje4GK+t5VLzPA01cCyUsZutOmQ==
+  dependencies:
+    hotkeys-js "3.8.2"
 
 react@^17.0.1:
   version "17.0.1"

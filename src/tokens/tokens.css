@@ -1,0 +1,33 @@
+:root {
+  /* Color */
+  --color-layout-bg: #000;
+  --color-layout-bg-subdued: rgba(255, 255, 255, 0.4);
+  --color-layout-border-default: #fff;
+  --color-layout-border-subdued: rgba(255, 255, 255, 0.24);
+  --color-type-default: #fff;
+  --color-interactive-progress: #c90000;
+  --color-interactive-enabled: #3e6ae1;
+
+  /* Scale */
+  --size-xs: 8px;
+  --size-s: 12px;
+  --size-m: 16px;
+  --size-l: 24px;
+  --size-xl: 40px;
+  --size-xxl: 64px;
+  --size-xxxl: 80px;
+
+  /* Typography */
+  --type-family-default: 'Montserrat', 'Trebuchet MS', Helvetica, sans-serif;
+
+  --type-size-default: var(--size-m);
+  --type-size-medium: var(--size-l);
+  --type-size-large: var(--size-xl);
+
+  --type-leading-default: var(--size-l);
+  --type-leading-medium: var(--size-xl);
+  --type-leading-large: var(--size-xxl);
+
+  --type-weight-default: 400;
+  --type-weight-medium: 500;
+}

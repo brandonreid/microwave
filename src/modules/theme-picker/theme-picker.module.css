@@ -1,0 +1,102 @@
+.wrapper {
+  position: absolute;
+  top: var(--size-l);
+  right: var(--size-l);
+}
+
+.menuToggle {
+  color: var(--color-type-default);
+  fill: var(--color-type-default);
+  background-color: transparent;
+  border: 1px solid var(--color-layout-border-default);
+  border-radius: 50%;
+  display: flex;
+  padding: var(--size-xs);
+  cursor: pointer;
+  opacity: 0.4;
+  outline: none;
+  transform: scale(1);
+  transition: transform 200ms ease;
+}
+
+.menuToggle svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menuToggle:hover {
+  opacity: 1;
+}
+
+.menuToggle:active {
+  transform: scale(0.95);
+}
+
+.menuToggleOpen {
+  background-color: var(--color-type-default);
+  color: var(--color-layout-bg);
+  fill: var(--color-layout-bg);
+  opacity: 1;
+}
+
+.options {
+  border: 1px solid var(--color-layout-border-subdued);
+  border-radius: var(--size-xs);
+  display: flex;
+  align-items: center;
+  grid-gap: var(--size-m);
+  padding: var(--size-l);
+  position: absolute;
+  top: calc(100% + var(--size-xs));
+  right: 0;
+  opacity: 0;
+  transform: translateY(calc(var(--size-l) * -1));
+  z-index: -1;
+  pointer-events: none;;
+  transition:
+    opacity 200ms ease,
+    transform 200ms step-end 200ms,
+    z-index 200ms step-end 200ms;
+}
+.optionsOpen {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1;
+  pointer-events: all;
+  transition:
+    opacity 200ms ease,
+    transform 200ms ease,
+    z-index 0ms step-start;
+}
+
+.themeOption {
+  background-color: transparent;
+  width: var(--size-xl);
+  height: var(--size-xl);
+  border-radius: 50%;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+.themeOption:before,
+.themeOption:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.themeOption:before {
+  box-shadow: inset 0px -2px var(--size-m) rgba(0, 0, 0, 0.4);
+  mix-blend-mode: multiply;
+}
+.themeOption:after {
+  box-shadow: inset 0px 2px 4px rgba(255, 255, 255, 0.4);
+  mix-blend-mode: screen;
+}
+.themeOptionActive {
+  box-shadow: 0 0 0 2px var(--color-interactive-enabled);
+}

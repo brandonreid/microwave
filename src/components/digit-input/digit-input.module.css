@@ -1,0 +1,51 @@
+.digitButton {
+  background-color: transparent;
+  border: 1px solid var(--color-layout-border-default);
+  border-radius: var(--size-xxl);
+  width: var(--size-xxl);
+  height: var(--size-xxxl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  transform: scale(1);
+  box-shadow: inset 0 0 var(--size-xl) 0 transparent;
+  transition: box-shadow 200ms ease, transform 200ms ease;
+}
+
+.digitButton:hover {
+  box-shadow: inset 0 0 var(--size-l) 0 var(--color-layout-bg-subdued);
+}
+
+.digitButtonActive {
+  transform: scale(0.95);
+}
+
+.clickWave {
+  border: 1px solid var(--color-layout-border-default);
+  border-radius: var(--size-xxl);
+  width: var(--size-xxl);
+  height: var(--size-xxxl);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0;
+}
+
+.digitButtonClicked .clickWave {
+  animation: clickWave 400ms ease-out;
+}
+
+@keyframes clickWave {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
