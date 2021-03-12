@@ -1,4 +1,4 @@
-# tesla-calculater
+# The only calculator that is actually a microwave.
 
 ## Getting Started
 - `yarn install`
