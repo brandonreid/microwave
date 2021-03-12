@@ -1,5 +1,4 @@
-# The only calculator that is actually a microwave.
-
+# Brandon Reid's Tesla Microwave
 ## Getting Started
 - `yarn install`
 - `yarn start`
